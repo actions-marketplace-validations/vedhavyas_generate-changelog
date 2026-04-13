@@ -23,7 +23,7 @@ jobs:
 
             ❤
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           body: ${{ steps.changelog-generator.outputs.changelog }}
           draft: true
